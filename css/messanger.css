@@ -1,0 +1,22 @@
+
+.card-header .toggle:after {
+    font-family: 'Font Awesome 5 Free';  
+    content: " \f077";
+    float: right;
+}
+.card-header .toggle.collapsed:after {
+     font-family: 'Font Awesome 5 Free';  
+    content: " \f078";
+}
+
+#content,.container,.row{
+	width:100% !important;
+}
+
+#content {
+	padding-top: 64px;
+}
+
+.card-header{
+	width:100%;
+}

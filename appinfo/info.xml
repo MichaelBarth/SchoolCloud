@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>schoolcloud</id>
+    <name>School Cloud</name>
+    <summary>Dashboard für Schulen</summary>
+    <description><![CDATA[Auf dem Dashboard werden die wichtigsten Infos für Lehrer zusammengetragen.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="mb1369@online.de" >Michael Barth</author>
+    <namespace>SchoolCloud</namespace>
+    <category>organization</category>
+    <bugs>https://github.com/MichaelBarth/SchoolCloud/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="14" max-version="14"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>School Cloud</name>
+            <route>schoolcloud.page.index</route>
+        </navigation>
+    </navigations>
+</info>

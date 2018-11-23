@@ -1,0 +1,44 @@
+html, body {
+		height: 100%; /* Anzeigebereich in der Vertikalen auf 100% strecken */
+		width:100%;
+		margin:0;
+			
+	}
+	
+	.navbar-text{
+		padding:4px;
+	}
+	.specialiframe {
+	  	width:1%;
+	  	min-width:100%;
+	  	*width:100%;
+	  	height:92%;
+	  	border:0;
+  	}
+  
+  	
+  	.height10{
+	 height:100% !important;
+	 
+ 	}
+ 	.heightauto{
+	 height:auto;
+ 	} 
+ 	
+ 	
+* {
+	overflow: hidden;
+}
+body {
+	 overflow-y:scroll;
+	 -webkit-overflow-scrolling: touch;
+	
+	 }
+
+	ul {
+	   -webkit-text-size-adjust: 100%;
+	}
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

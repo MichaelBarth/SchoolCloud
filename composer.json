@@ -1,0 +1,15 @@
+{
+    "name": "School Cloud",
+    "description": "Dashboard für Schulen",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Michael Barth"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
